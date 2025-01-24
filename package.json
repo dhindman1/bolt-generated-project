@@ -1,11 +1,13 @@
 {
-  "name": "snake-game",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "start": "npm install && vite"
-  },
-  "devDependencies": {
-    "vite": "^4.5.2"
-  }
-}
+      "name": "snake-game",
+      "version": "1.0.0",
+      "description": "A grid-based Snake game with wrap-around functionality",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+      },
+      "dependencies": {
+        "vite": "^4.2.0"
+      }
+    }
